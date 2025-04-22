@@ -25,6 +25,7 @@ aside {
 	flex-direction: column;
 	align-items: center;
 	padding: 25px;
+	padding-bottom: 0;
 	position: relative;
 }
 
@@ -69,10 +70,12 @@ aside::before {
 	border-radius: 15px;
 	padding: .25rem .75rem;
 	margin: 1rem;
+	color: oklch(44.4% 0.177 26.899);
+	background-color: oklch(88.5% 0.062 18.334);
 }
 
 .occupation {
-	margin: 1rem;
+	margin: .5rem;
 	font-size: 20px;
 	padding: .75rem;
 	width: 100%;
@@ -81,7 +84,11 @@ aside::before {
 }
 
 .extra-info {
-	margin: 1rem;
+	margin: .25rem;
+}
+
+.extra-info i {
+	margin-right: .5rem;
 }
 
 .extra-info span {
