@@ -21,10 +21,78 @@ body {
 }
 
 aside {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+	position: relative;
+}
+
+aside::before {
+	content: '';
+	position: absolute;
+	height: 25%;
+	width: 100%;
 	background-color: #e03131;
+	top: 0;
+	left: 0;
+}
+
+.pfp-img-container {
+	position: relative;
+	height: 270px;
+	width: 270px;
+	padding: 3px;
+	background-color: #e03131;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.pfp-img-container img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.name {
+	font-weight: 500;
+	font-size: 22px;
+	text-align: center;
+}
+
+.aliasses {
+	display: flex;
+}
+
+.badge {
+	border-radius: 15px;
+	padding: .25rem .75rem;
+	margin: 1rem;
+}
+
+.occupation {
+	margin: 1rem;
+	font-size: 20px;
+	padding: .75rem;
+	width: 100%;
+	border: 3px solid #e03131;
+	text-align: center;
+}
+
+.extra-info {
+	margin: 1rem;
+}
+
+.extra-info span {
+	font-weight: 500;
+}
+
+.extra-info p {
+	font-weight: 300;
+	margin: 1.5rem 0;
 }
 
 main {
 	background-color: green;
 }
-
