@@ -32,7 +32,7 @@ aside {
 aside::before {
 	content: '';
 	position: absolute;
-	height: 25%;
+	height: 11.5rem;
 	width: 100%;
 	background-color: #e03131;
 	top: 0;
@@ -139,6 +139,10 @@ nav .nav-btn {
 }
 
 .content-info {
-	border: 1px solid black;
 	height: 88%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 5rem;
 }
